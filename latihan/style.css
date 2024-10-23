@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navigasi{
+    background-color: rgb(10, 9, 9);
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: fixed;
+}
+.logo{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.menu{
+    margin-left: 800px;
+    padding-top: 27px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.menu ul li a:hover{
+   color: rgb(139, 146, 146);
+   font-style: italic;
+}
+.banner{
+    background-color:  rgb(15, 12, 12);
+    height: 650px;
+    text-align: center;
+    color: white;
+
+}
+.banner img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 150px;
+
+
+}
+.banner h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner button{
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 400px;
+    border: none;
+}
+.banner button:hover{
+   background-color:  rgb(15, 12, 12);
+   border: 1px solid white;
+   color: white;
+}
+
+h4 span:before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-family: 100px;
+
+}
+@keyframes gerak{
+    0%{
+        content: 'Selamat Datang';
+    }
+    60%{
+        content: ' Di Website Biodata';
+    }
+    100%{
+        content: 'Terimakasih Sudah Datang ';
+    }
+}
+.box-pendidikan{
+    text-align: center;
+    color: rgb(17, 16, 16);
+    width: 90%;
+    margin-top: 30px;
+    align-content: center;
+    height: 650px;
+}
+.box-pendidikan img{
+    border-radius: 200px;
+    height: 150px;
+    border: 6px solid white;
+    
+    
+    
+}
+.box-kiri, .box-tengah, .box-kanan{
+    padding-top: 13px;
+    width: 300px;
+    height: 320px;
+    background-color: rgb(36, 32, 32);
+    text-align: center;
+    padding-top: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    float: left;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(231, 222, 222);
+}
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover{ 
+    background-color:azure;
+    color: black;
+}
+.box-pendidikan h3, p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+@media screen and (min-width: 300px) {
+    
+}
